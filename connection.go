@@ -13,15 +13,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/ackhandler"
-	"github.com/quic-go/quic-go/internal/flowcontrol"
-	"github.com/quic-go/quic-go/internal/handshake"
-	"github.com/quic-go/quic-go/internal/logutils"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/dmissmann/quic-go/internal/ackhandler"
+	"github.com/dmissmann/quic-go/internal/flowcontrol"
+	"github.com/dmissmann/quic-go/internal/handshake"
+	"github.com/dmissmann/quic-go/internal/logutils"
+	"github.com/dmissmann/quic-go/internal/protocol"
+	"github.com/dmissmann/quic-go/internal/qerr"
+	"github.com/dmissmann/quic-go/internal/utils"
+	"github.com/dmissmann/quic-go/internal/wire"
+	"github.com/dmissmann/quic-go/logging"
 )
 
 type unpacker interface {

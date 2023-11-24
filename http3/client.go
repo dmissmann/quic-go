@@ -13,10 +13,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/dmissmann/quic-go"
+	"github.com/dmissmann/quic-go/internal/protocol"
+	"github.com/dmissmann/quic-go/internal/utils"
+	"github.com/dmissmann/quic-go/quicvarint"
 
 	"github.com/quic-go/qpack"
 )

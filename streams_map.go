@@ -7,10 +7,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/quic-go/quic-go/internal/flowcontrol"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/dmissmann/quic-go/internal/flowcontrol"
+	"github.com/dmissmann/quic-go/internal/protocol"
+	"github.com/dmissmann/quic-go/internal/qerr"
+	"github.com/dmissmann/quic-go/internal/wire"
 )
 
 type streamError struct {

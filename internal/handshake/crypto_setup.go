@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/qtls"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/logging"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/dmissmann/quic-go/internal/protocol"
+	"github.com/dmissmann/quic-go/internal/qerr"
+	"github.com/dmissmann/quic-go/internal/qtls"
+	"github.com/dmissmann/quic-go/internal/utils"
+	"github.com/dmissmann/quic-go/internal/wire"
+	"github.com/dmissmann/quic-go/logging"
+	"github.com/dmissmann/quic-go/quicvarint"
 )
 
 type quicVersionContextKey struct{}

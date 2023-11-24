@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/quicvarint"
+	"github.com/dmissmann/quic-go/internal/protocol"
+	"github.com/dmissmann/quic-go/quicvarint"
 )
 
 // Clone clones a Config
